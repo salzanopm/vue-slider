@@ -1,5 +1,5 @@
 // faccio attivare l'estensione di vuejs
-Vue.config.devtools = true; 
+Vue.config.devtools = true;
 
 const app = new Vue (
     {

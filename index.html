@@ -22,8 +22,8 @@
                     <div class="single-image">
                         <img :src="slides[active].image" alt="">
                         <div class="single-image-text">
-                            <h3>{{slides[active].title}}</h3>
-                            <p>{{slides[active].text}}</p>
+                            <h3>{{ slides[active].title }}</h3>
+                            <p>{{ slides[active].text }}</p>
                         </div>
                     </div>
                 </div>
@@ -42,7 +42,7 @@
                     </div>
                     <!-- End Arrow down -->
     
-                    <div v-for="(element, index) in slides" class="single-thumb" :class="{'active: index === active }">
+                    <div v-for="(element, index) in slides" class="single-thumb" :class="{'active': index === active }">
                         <img :src="element.image" alt="">
                     </div>
                 </div>
